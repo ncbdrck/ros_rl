@@ -11,6 +11,9 @@ This framework provides the following features:
  2. Real-time training with any RL simulation framework (Agnostic of any RL simulation framework) 
  3. Tools to execute concurrent environments and maintain communication.
 
+For more information, please refer to the main [UniROS repository](https://github.com/ncbdrck/UniROS) which integrates [MultiROS](https://github.com/ncbdrck/multiros) and RealROS.
+
+
 ## Prerequisites
 
 Before installing RealROS, make sure you have the following prerequisites:
@@ -136,7 +139,7 @@ To get started with RealROS, follow these steps:
    
 ## Usage
 
-You can refer to the [templates](https://github.com/ncbdrck/realros/tree/main/src/realros/templates) or the [examples](https://github.com/ncbdrck/reactorx200_ros_reacher) to see how to use RealROS to create a real-world environment for RL applications.
+You can refer to the [templates](https://github.com/ncbdrck/realros/tree/main/src/realros/templates) or the [examples](https://github.com/ncbdrck/rl_environments) to see how to use RealROS to create a real-world environment for RL applications.
 
 It also showcases:
 - How to use RealROS to create a real-world environment for RL applications.
