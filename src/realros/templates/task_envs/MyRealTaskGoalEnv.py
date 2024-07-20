@@ -294,7 +294,7 @@ class MyRealTaskGoalEnv(MyRealRobotGoalEnv.MyRealRobotGoalEnv):
         """
 
         if port is None:
-            port = int(port)
+            port = 11311  # default port
 
         ros_port = ros_common.launch_roscore(port=port, set_new_master_vars=set_new_master_vars,
                                              default_port=default_port)
